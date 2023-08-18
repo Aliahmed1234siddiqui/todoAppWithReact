@@ -1,38 +1,50 @@
 .App {
   text-align: center;
+  padding-top:4% ;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background-image: url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm218-bb-7_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=f11db742a407baed5f7cf995054a698d');
+background-position: center;
+background-size: cover;
+height: 100vh;
+background-repeat: no-repeat;
+padding: 0;
+margin: 0;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.head{
   color: white;
-}
+  font-size:50px;
 
-.App-link {
-  color: #61dafb;
 }
+.input{
+  padding: 3px 5px;
+  font-size: x-large;
+  border: none;
+  outline:none ;
+  border-radius: 20px;
+}
+.button{
+  padding: 5px 20px;
+  font-size: x-large;
+  border-radius: 20px;
+margin-left: 10px;
+    border: none;
+  background-color: red;
+  color: white;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.list{
+  list-style-type: none;
+ color: white;
+}
+.text{
+  font-size: x-large;
+}
+.remove{
+  padding: 5px 10px;
+  background-color: green;
+  color: white;
+  margin-left: 10px;
+  border-radius: none;
+
 }
